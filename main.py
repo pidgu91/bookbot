@@ -24,10 +24,9 @@ def count_letters(words):
     return dict
 
 def report(total, letters):
-    print(letters)
     print(f"{total} words found in the document")
-    #print(list_words)
-
+    for key, value in letters.items():
+        print(f"The '{key}' character was found {value} times")
 
 total, words = count_words()
 letters = count_letters(words)

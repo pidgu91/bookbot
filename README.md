@@ -1,2 +1,3 @@
 # bookbot
-BookBot is a test git project!
+BookBot takes a text file and returns the total for how many words and letters there are in a document
+
